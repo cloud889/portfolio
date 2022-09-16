@@ -87,18 +87,19 @@
             <section class="section3 panel">
                <div class="ml-10  md:px-32 md:ml-24 pt-7 pb-5 md:pb-24">
                      <h1 class="text-xl md:text-5xl text-white font-bold color-green header3"><span class="color-green">SAMPLE WORKS</span> </h1>
+                     <p class="text-white mt-3 par3">How to transform your uniqueness into profitable business.🦾</p>
                </div>
                <div id="smooth-wrapper">
                     <div class="px-10 grid grid-cols-2 md:grid-cols-3 justify-items-stretch gap-5 md:px-56" id="smooth-content">
                             <div class="card">
                                 <div class="box px-5">
                                 </div>
-                                <div class="white-box px-5 text-xs py-3 md:py-10 text-center hover:mt-3 transition-all">
+                                <div class="white-box px-5 text-xs py-3 md:py-10 text-center md:hover:mt-3 md:transition-all">
                                     <div class="flex justify-center"> 
                                         <img src="{{asset("images/icon1.png")}}" alt="" class="icons ">
                                     </div>
                                     <div class="mt-3 md:mt-10">
-                                        <h1 class="md:text-lg text-center color-green2 font-semibold"><span class="green-color2">Web Engineering</span> </h1>
+                                        <h1 class="md:text-lg text-center color-green2 font-semibold"><span class="green-color2">Software Engineering</span> </h1>
                                     </div>
                                     <div class="mt-3">
                                         <p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac odio nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -113,7 +114,7 @@
                             <div class="card">
                                 <div class="box px-5">
                                 </div>
-                                <div class="white-box px-5 text-xs py-3 md:py-10 text-center hover:mt-3 transition-all">
+                                <div class="white-box px-5 text-xs py-3 md:py-10 text-center md:hover:mt-3 md:transition-all">
                                     <div class="flex justify-center">
                                         <img src="{{asset("images/icon2.png")}}" alt="" class="icons">
                                     </div>
@@ -133,7 +134,7 @@
                             <div class="card">
                                 <div class="box px-5">
                                 </div>
-                                <div class="white-box px-5 text-xs py-3 md:py-10 text-center hover:mt-3 transition-all">
+                                <div class="white-box px-5 text-xs py-3 md:py-10 text-center md:hover:mt-3 md:transition-all">
                                     <div class="flex justify-center">
                                         <img src="{{asset("images/icon4.png")}}" alt="" class="icons">
                                     </div>
@@ -155,12 +156,74 @@
             </section>
             <section class="section4 panel">
                 <div class="md:px-24 md:ml-24 pt-12 pb-24">
-                    <h1 class="text-xl ml-10 md:text-5xl text-white font-bold color-green"><span class="color-green">TECH STACK</span> </h1>
+                    <h1 class="text-xl ml-10 md:text-5xl text-white font-bold color-green header4"><span class="color-green">TECH STACK</span> </h1>
+                    <p class="text-white mt-3 md:ml-10 par4">I have a very particular set of skills. I will find you. I will deliver to you.😉</p>
+              </div>
+              <div class="container">
+                <div class="md:grid md:grid-cols-6 px-80">
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/illustrator.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/photoshop.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/premier.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/experience.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/after-effects.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/figma.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/html-5.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/css-3.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/js.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/wordpress.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/php.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/laravel2.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/database.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/bootstrap.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/tailwind.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/sass.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/office.png')}}" alt="" class="h-1/2">
+                    </div>
+                    <div class="flex justify-center tech-stack">
+                        <img src="{{asset('images/google-drive.png')}}" alt="" class="h-1/2">
+                    </div>
+                </div>
+             
+                  
               </div>
             </section>
             <section class="section5 panel">
                 <div class="md:px-24 md:ml-24 pt-12 pb-24">
                     <h1 class="text-xl ml-10 md:text-5xl text-white font-bold color-green"><span class="color-green">LET'S TALK</span> </h1>
+                    <p class="text-white mt-3 md:ml-10">Tell us about yourself so we can customize your account.💬</p>
               </div>
             </section>
         </div>
