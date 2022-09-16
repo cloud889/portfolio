@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.box{
+    /* height:50px;
+    width:50px; */
+    height: 5px;
+    background-color: #27BD51;
+    border-radius: 2px 2px 0px 0px;
+}
+
+
+.white-box{
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    -webkit-box-shadow: 0px 12px 20px -7px rgba(1,10,13,1);
+    -moz-box-shadow: 0px 12px 20px -7px rgba(1,10,13,1);
+    box-shadow: 0px 12px 20px -7px rgba(1,10,13,1);
+}   
+
+section{
+    height:100vh;
+}
+
+.color-green, .heading{
+    color: #27BD51;
+    background: #7CF99F;
+    background: radial-gradient(circle farthest-corner at top center, #7CF99F 44%, #27BD51 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color-green2{
+    color: #27BD51;
+}
+
+.contact{
+    background-color: #27BD51;
+    font-weight:500;
+    transition:all .15s ease-in-out;
+}
+
+.icons{
+    max-width: 70%;
+}
+
+
+.contact:hover{
+    background-color: #095c21;
+    font-weight:500;
+    color:#6ff093
+    
+}
+
+.contact2{
+    background-color: #27BD51;
+    font-weight:500;
+    border-radius: 30px;
+    transition:all .15s ease-in-out;
+}
+
+.contact2:hover{
+    background-color: #095c21;
+    font-weight:500;
+    color:#caffd9
+    
+}
+
+
+.section1{
+    height:100vh;
+    background-color: #00171F;
+    background-image: url('../../images/bg-1.png');
+    background-attachment: fixed;
+}
+
+.section2{
+    height:100vh;
+    background-color: #00171F;
+}
+
+.fancy-header{
+    font-weight:900;
+    color:white;
+    
+    letter-spacing: 5px;
+}
+
+/* section2 */
+
+.section2{
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/section22.png');
+    background-attachment: fixed;
+}
+
+.section3{
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/section3.png');
+    background-attachment: fixed;
+}
+
+
+.section4{
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/section4.png');
+    background-attachment: fixed;
+}
+
+.section5{
+    background-size: cover;
+    background-position: center;
+    background-color: #00171F;
+    /* background-image: url('../../images/section2.png'); */
+    background-attachment: fixed;
+}
+
