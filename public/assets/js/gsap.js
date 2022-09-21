@@ -162,3 +162,4 @@ gsap.from('.tech-stack',{
   delay:5
 
 })
+

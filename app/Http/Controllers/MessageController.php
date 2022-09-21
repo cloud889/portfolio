@@ -40,13 +40,13 @@ class MessageController extends Controller
     public function store(Request $request)
     {
         //
-        $formFields = $request->validate([
-            'name' => 'required',
-            'email' => 'required',
-            'message' => 'required',
-        ]);
+        // $formFields = $request->validate([
+        //     'name' => 'required',
+        //     'email' => 'required',
+        //     'message' => 'required',
+        // ]);
 
-        Message::create($formFields);
+        // Message::create($formFields);
         return back()->with('message','thank you for your response');
     }
 
